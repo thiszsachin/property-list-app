@@ -1,8 +1,9 @@
 .list-container {
-  margin: 30px 140px;
+  margin: 30px 40px;
 }
 .heading {
   margin-left: 300px;
+  margin-bottom: 20px;
 }
 .no-list-heading {
   color: purple;
