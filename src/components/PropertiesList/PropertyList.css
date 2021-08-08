@@ -5,16 +5,8 @@
   margin-left: 300px;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 600px) {
-  .heading {
-    margin-left: 20px;
-  }
-  .list-container {
-    margin: 10px 10px;
-  }
-}
 .no-list-heading {
-  color: purple;
+  color: rgb(161, 103, 161);
   margin: 280px 200px;
 }
 th,
@@ -44,4 +36,16 @@ tr {
   border-radius: 20px;
   width: 90px;
   color: rgb(207, 185, 155);
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    margin-left: 20px;
+  }
+  .list-container {
+    margin: 10px 10px;
+  }
+  .no-list-heading {
+    margin: 50px 100px;
+  }
 }
