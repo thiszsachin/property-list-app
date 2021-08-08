@@ -5,6 +5,14 @@
   margin-left: 300px;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .heading {
+    margin-left: 20px;
+  }
+  .list-container {
+    margin: 10px 10px;
+  }
+}
 .no-list-heading {
   color: purple;
   margin: 280px 200px;
