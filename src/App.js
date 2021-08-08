@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import AddProperty from "./components/AddProperty/AddProperty";
+import PropertiesList from "./components/PropertiesList/PropertiesList";
+import Header from "./components/Header";
 
 function App() {
+  const [detail, setDetails] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <PropertiesList detail={detail} setDetails={setDetails} />
+      <AddProperty detail={detail} setDetails={setDetails} />
     </div>
   );
 }
